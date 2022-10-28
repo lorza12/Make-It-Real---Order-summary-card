@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+#container{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Red Hat Display', sans-serif;
+    max-width: 90%;
+    margin: auto;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#hero{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.principal_image{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.principal_image h1{
+    font-size: 18px;
+    padding: 20px;
+    color: #200076;
+    
+}
+
+.principal_image p{
+    font-size: 10px;
+    color: rgba(148, 145, 145, 0.911);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.plan{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    padding: 22px;
+    font-size: 10px;
+}
+
+.music{
+  display: flex;
+  width: 25px;
+  height: 25px;
+}
+
+.annualPlan{
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 18px;
+    padding-right: 38px;
+}
+
+#price{
+    color: rgba(128, 128, 128, 0.815);
+}
+
+#change{
+    display: flex;
+    width: 1px;
+    border: none;
+    height: 10px;
+    text-decoration: underline;
+}
+
+#ch{
+    border: none;
+    background-color: white;
+    font-size: 11px;
+    color: #002cc2;
+    font-weight: 600;
+}
+
+#ch:hover{
+    color: blueviolet;
+}
+
+#buttoms{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#btm1{
+    border: none;
+    padding: 10px;
+    background-color:  #002cc2;
+    border-radius: 10px;
+    height: 30px;
+    width: 180px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 10px;
+}
+
+#btm1:hover{
+    background-color:#9370db;
+
+}
+
+#btm2{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: rgba(120, 117, 117, 0.779);
+    font-size: 10px;
+    background-color: white;
+}
+
+#btm2:hover{
+    color: black;
+}
+
+@media (min-width:1200px) {
+    
+    
+    #container{
+        width: 300px;
+    }
+}
