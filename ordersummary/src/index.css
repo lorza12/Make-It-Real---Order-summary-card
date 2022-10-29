@@ -17,4 +17,13 @@ body {
   background-image: url('../public/images/background-mobile.svg');
   background-repeat: no-repeat;
   background-color:#c4d2ff;
+  
+}
+
+@media (min-width:1200px) {
+    
+  body{
+      background-image: url('../public/images/background-desktop.svg');
+ 
+  }
 }
